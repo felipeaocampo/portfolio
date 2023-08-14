@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+
+/* /////////////////////////////////////////////////// 
+///////////////////////// GENERAL ////////////////////
+/////////////////////////////////////////////////// */
+
+body {
+  /* background-color: red; */
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a:active,
+a:visited,
+a:link,
+a:hover {
+  text-decoration: none;
+}
+
+/* /////////////////////////////////////////////////// 
+///////////////////////// NAV ////////////////////////
+/////////////////////////////////////////////////// */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.nav__link-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.logo {
+  width: 12rem;
+}

@@ -17,8 +17,10 @@
     <header>
       <nav class="nav">
         <ul class="nav__link-container">
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <div class="nav__link-container--first-links">
+            <li><a href="#about-me" class="nav-link">About Me</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+          </div>
           <li>
             <img
               src="./assets/FO.png"
@@ -26,12 +28,51 @@
               class="logo"
             />
           </li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <div class="nav__link-container--second-links">
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </div>
         </ul>
       </nav>
     </header>
-    <main>MAIN</main>
+    <main>
+      <section class="opening">
+        <div class="caption">
+          <h1 class="name">Felipe Ocampo</h1>
+          <p class="position">Software Engineer</p>
+        </div>
+        <div class="image-container">
+          <img
+            class="felipe-pic"
+            src="	https://a8ctm1.files.wordpress.com/2020/01/joe-gardner-fn_bt9fwg_e-unsplash.jpg"
+            alt="Picture of Felipe Ocampo"
+          />
+        </div>
+      </section>
+      <section class="about-me">
+        <h2 class="about-me section__heading" id="about-me">#About Me</h2>
+        <p class="section__text">
+          Hello there! Thanks for visiting my portfolio page 😁. Here’s a little
+          about me: I am a full stack software engineer with a particular
+          passion for anything Typescript, Javascript, React, and GraphQL. I
+          love developing engaging, accessible, and scalable frontends, and I’ve
+          also learned that excellent development of an application’s backend
+          makes for an optimized user experience. And isn’t this what it’s all
+          about? Building tech that’s going to make life easier for us? Finding
+          creative ways for technology to improve our human experience? If you
+          get excited about these things, then we’re in the same camp.
+        </p>
+      </section>
+      <section class="skills">
+        <h2 class="skills section__heading" id="skills">#Skills</h2>
+        <p class="section__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+          excepturi aliquam odit culpa laudantium, doloribus cupiditate
+          explicabo consectetur. Eligendi laudantium similique voluptatem
+          explicabo repellendus exercitationem dolore magni soluta quas quasi.
+        </p>
+      </section>
+    </main>
     <footer>FOOTER</footer>
   </body>
 </html>

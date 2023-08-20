@@ -16,8 +16,12 @@ html {
 /////////////////////////////////////////////////// */
 
 body {
-  /* background-color: red; */
+  background-color: #fff;
   font-size: 1.6rem;
+  color: #474747;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul {
@@ -29,6 +33,21 @@ a:visited,
 a:link,
 a:hover {
   text-decoration: none;
+  color: #6c6c6c;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+section h2 {
+  color: #000;
+}
+
+h2 {
+  font-size: 4rem;
 }
 
 /* /////////////////////////////////////////////////// 
@@ -39,15 +58,90 @@ a:hover {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  position: sticky;
+  transform: translateX(-11px);
 }
 
 .nav__link-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 33%;
+  justify-content: space-around;
+  /* width: 40%; */
 }
 
 .logo {
   width: 12rem;
+}
+
+.nav__link-container--first-links,
+.nav__link-container--second-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.nav-link:hover {
+  /* color: #ee553e; */
+  color: #3f3f3f;
+}
+
+/* /////////////////////////////////////////////////// 
+///////////////////////// MAIN ////////////////////////
+/////////////////////////////////////////////////// */
+
+main {
+  margin: 0 15rem;
+  max-width: 1440px;
+  /* border: 1px solid red; */
+}
+
+.opening {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.caption {
+  /* border: 1px solid red; */
+}
+
+.name {
+  margin: 1.5rem 0;
+}
+
+.position {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 0 0 3rem 0;
+}
+
+.felipe-pic {
+  width: 100rem;
+  border-radius: 600px;
+}
+
+/* /////////////////////////////////////////////////// 
+///////////////////////// ABOUT ME ////////////////////////
+/////////////////////////////////////////////////// */
+
+.section__heading {
+  margin-bottom: 3.5rem;
+}
+
+.section__text {
+  width: 70%;
+  color: #5c5c5c;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+/* /////////////////////////////////////////////////// 
+///////////////////////// SKILLS ////////////////////////
+/////////////////////////////////////////////////// */
+
+.skills .section__heading,
+.skills.section_text {
+  text-align: right;
 }
